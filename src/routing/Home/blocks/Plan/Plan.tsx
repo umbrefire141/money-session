@@ -1,7 +1,7 @@
 import Typography from '@/components/shared/Typography/Typography';
+import { plans } from '@/data/plans.data';
 import Card from './Card/Card';
 import styles from './Plan.module.css';
-import { plans } from './plans.data';
 
 const Plan = () => {
 	return (

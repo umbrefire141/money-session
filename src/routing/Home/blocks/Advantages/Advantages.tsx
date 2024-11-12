@@ -1,7 +1,7 @@
 import Typography from '@/components/shared/Typography/Typography';
+import { advantages } from '@/data/advantages.data';
 import styles from './Advantages.module.css';
 import Card from './Card/Card';
-import { advantages } from './advantages.data';
 
 const Advantages = () => {
 	return (
