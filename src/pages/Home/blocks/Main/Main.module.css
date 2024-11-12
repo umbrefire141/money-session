@@ -1,0 +1,27 @@
+.main {
+	position: relative;
+	margin-bottom: 8.75rem;
+}
+
+.green {
+	color: var(--color-green);
+}
+
+.content {
+	max-width: 845px;
+}
+
+.img {
+	position: absolute;
+	top: -45%;
+	right: 0;
+	z-index: -1;
+}
+
+.title {
+	margin-bottom: 0.5em;
+}
+
+.info {
+	margin-bottom: 1.4em;
+}

@@ -7,12 +7,31 @@
 }
 
 .sm {
+	font-size: 0.875rem;
 }
 
 .md {
+	font-size: 1rem;
 }
 
 .lg {
+	font-size: 1.25rem;
+}
+
+.xl {
+	font-size: 1.625rem;
+}
+
+.xl2 {
+	font-size: 1.75rem;
+}
+
+.xl3 {
+	font-size: 2.25rem;
+}
+
+.xl4 {
+	font-size: 4rem;
 }
 
 .gray {
@@ -25,4 +44,12 @@
 
 .regular {
 	font-weight: 400;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.lowercase {
+	text-transform: lowercase;
 }

@@ -1,0 +1,35 @@
+import Typography from '@/components/shared/Typography/Typography';
+import styles from './Advantages.module.css';
+import Card from './Card/Card';
+import { advantages } from './advantages.data';
+
+const Advantages = () => {
+	return (
+		<div className={styles.advantages}>
+			<div className="container">
+				<Typography
+					className={styles.title}
+					TypeElement="h2"
+					size="3xl"
+					family="exo"
+					weight="bold"
+					transform="uppercase"
+				>
+					преимущества
+				</Typography>
+				<div className={styles.grid}>
+					{advantages.map(advantage => (
+						<Card
+							key={advantage.id}
+							img={advantage.img}
+							title={advantage.title}
+							text={advantage.text}
+						/>
+					))}
+				</div>
+			</div>
+		</div>
+	);
+};
+
+export default Advantages;
