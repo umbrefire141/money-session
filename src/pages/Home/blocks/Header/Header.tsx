@@ -5,7 +5,7 @@ import Menu from './Menu/Menu';
 
 const Header = () => {
 	return (
-		<div className={styles.header}>
+		<header className={styles.header}>
 			<div className="container">
 				<div className={styles.row}>
 					<Logo />
@@ -15,7 +15,7 @@ const Header = () => {
 					</div>
 				</div>
 			</div>
-		</div>
+		</header>
 	);
 };
 

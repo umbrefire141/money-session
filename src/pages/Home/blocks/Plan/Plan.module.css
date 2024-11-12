@@ -1,0 +1,13 @@
+.plan {
+	margin-bottom: 8.125rem;
+}
+
+.title {
+	margin-bottom: 1.5em;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(465px, 1fr));
+	gap: 0.625rem;
+}

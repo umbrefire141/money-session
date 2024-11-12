@@ -1,0 +1,13 @@
+.advantages {
+	margin-bottom: 6.25rem;
+}
+
+.title {
+	margin-bottom: 0.9em;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(465px, 1fr));
+	gap: 1.3125rem 0.875rem;
+}
