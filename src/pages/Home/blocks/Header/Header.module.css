@@ -1,0 +1,17 @@
+.header {
+	padding: 2.1875rem;
+	margin-bottom: 6.25rem;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	gap: 1rem;
+}
+
+.menu {
+	display: flex;
+	align-items: center;
+	gap: 3.125rem;
+}

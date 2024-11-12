@@ -1,0 +1,28 @@
+.font_exo {
+	font-family: var(--font-exo);
+}
+
+.font_manrope {
+	font-family: var(--font-manrope);
+}
+
+.sm {
+}
+
+.md {
+}
+
+.lg {
+}
+
+.gray {
+	color: var(--color-gray);
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.regular {
+	font-weight: 400;
+}

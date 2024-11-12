@@ -1,0 +1,14 @@
+.list {
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	gap: 3.25rem;
+}
+
+.item a {
+	transition: color 0.3s;
+}
+
+.item a:hover {
+	color: var(--color-green);
+}
