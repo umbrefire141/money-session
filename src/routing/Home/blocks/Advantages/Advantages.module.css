@@ -8,6 +8,11 @@
 
 .grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(465px, 1fr));
 	gap: 1.3125rem 0.875rem;
+}
+
+@media (min-width: 577px) {
+	.grid {
+		grid-template-columns: repeat(auto-fit, minmax(465px, 1fr));
+	}
 }

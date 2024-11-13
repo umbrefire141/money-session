@@ -1,4 +1,5 @@
 import Advantages from './blocks/Advantages/Advantages';
+import Feedback from './blocks/Feedback/Feedback';
 import Footer from './blocks/Footer/Footer';
 import Header from './blocks/Header/Header';
 import Main from './blocks/Main/Main';
@@ -14,6 +15,7 @@ export default function HomePage() {
 			<Advantages />
 			<Plan />
 			<Solution />
+			<Feedback />
 			<Footer />
 		</div>
 	);

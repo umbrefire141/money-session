@@ -1,0 +1,20 @@
+.textarea {
+	padding: 1em;
+	border: 1px solid #487a5c;
+	background-color: #2e2e2e;
+	font-family: var(--font-inter);
+	font-weight: 400;
+	font-size: 1rem;
+	border-radius: 10px;
+	color: var(--color-white);
+	resize: none;
+	overflow: auto;
+}
+
+.textarea::placeholder {
+	color: #626262;
+}
+
+.textarea:focus {
+	outline: 2px solid #487a5c;
+}
