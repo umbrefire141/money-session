@@ -10,8 +10,20 @@
 	gap: 1rem;
 }
 
+.firstItem {
+	display: flex;
+	align-items: flex-end;
+	gap: 1rem;
+}
+
 .menu {
 	display: flex;
 	align-items: center;
 	gap: 3.125rem;
+}
+
+@media (max-width: 576px) {
+	.header {
+		padding: 2.1875rem 0;
+	}
 }
