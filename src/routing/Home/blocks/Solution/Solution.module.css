@@ -50,3 +50,9 @@
 
 .card__btn {
 }
+
+@media (max-width: 576px) {
+	.card__img {
+		width: 100%;
+	}
+}

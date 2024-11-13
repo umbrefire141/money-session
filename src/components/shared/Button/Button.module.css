@@ -16,6 +16,10 @@
 	background-color: var(--color-greenActive);
 }
 
+.bg {
+	text-transform: uppercase;
+}
+
 .outline {
 	border: 1px solid var(--color-green);
 	background-color: transparent;
