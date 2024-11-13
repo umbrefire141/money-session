@@ -5,7 +5,12 @@ import styles from './Logo.module.css';
 const Logo = () => {
 	return (
 		<div className={styles.logo}>
-			<Image src={logo} alt="Logo money session" width={262} height={74} />
+			<Image
+				src={logo}
+				alt="Logo money session"
+				width={undefined}
+				height={undefined}
+			/>
 		</div>
 	);
 };

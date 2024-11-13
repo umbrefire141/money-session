@@ -1,9 +1,15 @@
+import clsx from 'clsx';
 import Link from 'next/link';
+import { IMenuProps } from './Menu.interface';
 import styles from './Menu.module.css';
 
-const Menu = () => {
+const Menu = ({ menuIsActive }: IMenuProps) => {
 	return (
-		<nav className={styles.menu}>
+		<nav
+			className={clsx(styles.menu, {
+				[styles.active]: menuIsActive,
+			})}
+		>
 			<ul className={styles.list}>
 				<li className={styles.item}>
 					<Link href="/">Главная</Link>
