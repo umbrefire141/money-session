@@ -27,13 +27,39 @@
 	margin-bottom: 1.4em;
 }
 
+.bgMain1 {
+	top: 0;
+	left: 0;
+	position: absolute;
+	z-index: -1;
+}
+
+.bgMain2 {
+	top: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;
+}
+
+.blurImage {
+	max-width: 694px;
+	width: 100%;
+	height: auto;
+	top: 0;
+	left: 0;
+	position: absolute;
+	z-index: -1;
+}
+
 @media (max-width: 992px) {
 	.content {
 		max-width: 100%;
 		margin-right: 0;
 	}
 
-	.img {
+	.img,
+	.bgMain1,
+	.bgMain2 {
 		display: none;
 	}
 }

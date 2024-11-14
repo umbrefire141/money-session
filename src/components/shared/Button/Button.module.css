@@ -1,4 +1,9 @@
 .btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	gap: 0.625rem;
 	font-weight: 700;
 	color: var(--color-white);
 	cursor: pointer;
@@ -32,7 +37,7 @@
 .sm {
 	font-family: var(--font-manrope);
 	font-size: 0.75rem;
-	padding: 0.84em 2.5em;
+	padding: 0.84em 1rem;
 }
 
 .lg {

@@ -1,0 +1,22 @@
+.title {
+	margin-bottom: 1.3125rem;
+}
+
+.row {
+	display: flex;
+	gap: 1.125rem;
+}
+
+.telegram {
+	max-width: 200px;
+}
+
+.email {
+	max-width: 244px;
+}
+
+@media (max-width: 996px) {
+	.title {
+		display: none;
+	}
+}

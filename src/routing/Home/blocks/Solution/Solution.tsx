@@ -5,6 +5,7 @@ import styles from './Solution.module.css';
 
 import img1 from '@/assets/images/solutions/a-1.png';
 import img2 from '@/assets/images/solutions/a-2.png';
+import clsx from 'clsx';
 
 const Solution = () => {
 	return (
@@ -21,7 +22,7 @@ const Solution = () => {
 					Готовые решения
 				</Typography>
 				<div className={styles.row}>
-					<div className={styles.card}>
+					<div className={clsx(styles.card, styles.card_left)}>
 						<Image
 							src={img1}
 							alt=""
@@ -41,7 +42,7 @@ const Solution = () => {
 								>
 									Онлайн-казино
 								</Typography>
-								<Typography size="sm">
+								<Typography size="sm" className={styles.card__text}>
 									Веб-сайт представляет собой онлайн-казино с набором игр от
 									провайдеров, доступ к которым осуществляется через веб-сервис,
 									а также включает функции поддержки и создания аккаунта
@@ -52,13 +53,13 @@ const Solution = () => {
 							</Button>
 						</div>
 					</div>
-					<div className={styles.card}>
+					<div className={clsx(styles.card, styles.card_right)}>
 						<Image
 							src={img2}
 							alt=""
 							width={undefined}
 							height={undefined}
-							className={styles.card__img}
+							className={styles.card__img_other}
 						/>
 						<div className={styles.card__content}>
 							<div>
@@ -72,10 +73,10 @@ const Solution = () => {
 								>
 									Игра в жанре “Crash”
 								</Typography>
-								<Typography size="sm">
+								<Typography size="sm" className={styles.card__text}>
 									Веб приложение представляет из себя игру в жанре Crash Game.
 									Включает в себя 4х-этапную этапную анимацию:
-									{''}
+									<br />
 									● Старт (прием ставок) <br />
 									● Коэффициент 1-5 x <br />
 									● Коэффициент 5-20 x<br /> ● Суперигра
