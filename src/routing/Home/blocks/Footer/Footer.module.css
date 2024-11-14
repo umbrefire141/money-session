@@ -1,0 +1,35 @@
+.footer {
+	margin-bottom: 1rem;
+}
+
+.top {
+	display: flex;
+	justify-content: space-between;
+	gap: 1rem;
+	margin-bottom: 5.125rem;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+	gap: 1rem;
+	flex: 0 1 56%;
+}
+
+.copyright {
+	font-size: 0.75rem;
+	color: #7e7e7e;
+	text-align: center;
+}
+
+@media (max-width: 996px) {
+	.top {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.row {
+		flex-direction: column;
+	}
+}

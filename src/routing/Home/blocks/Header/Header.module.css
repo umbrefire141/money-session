@@ -1,5 +1,5 @@
 .header {
-	padding: 2.1875rem;
+	padding: 2.1875rem 0 0;
 	margin-bottom: 6.25rem;
 }
 
@@ -22,8 +22,12 @@
 	gap: 3.125rem;
 }
 
+.btn {
+	max-width: 132px;
+}
+
 @media (max-width: 576px) {
 	.header {
-		padding: 2.1875rem 0;
+		padding: 2.1875rem 0 0;
 	}
 }

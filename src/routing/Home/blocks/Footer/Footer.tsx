@@ -9,8 +9,10 @@ const Footer = () => {
 			<div className="container">
 				<div className={styles.top}>
 					<Logo />
-					<Menu />
-					<Contacts />
+					<div className={styles.row}>
+						<Menu />
+						<Contacts />
+					</div>
 				</div>
 				<p className={styles.copyright}>
 					© MoneySession 2024. Все права защищены

@@ -20,7 +20,7 @@ const Card = ({ id, img, title, text }: ICardProps) => {
 				<Typography
 					TypeElement="h3"
 					family="exo"
-					size="2xl"
+					size="xl"
 					transform="uppercase"
 					weight="bold"
 					className={styles.title}

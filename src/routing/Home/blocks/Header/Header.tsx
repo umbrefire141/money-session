@@ -23,7 +23,7 @@ const Header = () => {
 					</div>
 					<div className={styles.menu}>
 						<Menu menuIsActive={menuIsActive} />
-						<Button>Связаться</Button>
+						<Button className={styles.btn}>Связаться</Button>
 					</div>
 				</div>
 			</div>

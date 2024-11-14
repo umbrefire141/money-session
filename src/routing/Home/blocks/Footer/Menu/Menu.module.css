@@ -1,0 +1,43 @@
+.menu {
+	max-width: 412px;
+	width: 100%;
+}
+
+.title {
+	margin-bottom: 1.3125rem;
+}
+
+.nav {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	gap: 1rem;
+}
+
+.list {
+	list-style-type: none;
+	padding: 0;
+}
+
+.item {
+	font-size: 0.875rem;
+}
+
+.item + .item {
+	margin-top: 1.28571429em;
+}
+
+.item a {
+	color: #a7a7a7;
+	transition: color 0.3s;
+}
+
+.item a:hover {
+	color: var(--color-green);
+}
+
+@media (max-width: 996px) {
+	.title {
+		display: none;
+	}
+}

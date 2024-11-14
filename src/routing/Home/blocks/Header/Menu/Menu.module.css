@@ -5,6 +5,10 @@
 	gap: 3.25rem;
 }
 
+.item {
+	white-space: nowrap;
+}
+
 .item a {
 	transition: color 0.3s;
 }
