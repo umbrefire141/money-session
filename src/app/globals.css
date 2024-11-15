@@ -29,13 +29,6 @@ body {
 	overflow-x: hidden;
 }
 
-.container {
-	max-width: 1747px;
-	width: 100%;
-	padding: 0 1rem;
-	margin: 0 auto;
-}
-
 * {
 	box-sizing: border-box;
 	padding: 0;

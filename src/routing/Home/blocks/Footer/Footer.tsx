@@ -6,18 +6,16 @@ import Menu from './Menu/Menu';
 const Footer = () => {
 	return (
 		<footer className={styles.footer}>
-			<div className="container">
-				<div className={styles.top}>
-					<Logo />
-					<div className={styles.row}>
-						<Menu />
-						<Contacts />
-					</div>
+			<div className={styles.top}>
+				<Logo />
+				<div className={styles.row}>
+					<Menu />
+					<Contacts />
 				</div>
-				<p className={styles.copyright}>
-					© MoneySession 2024. Все права защищены
-				</p>
 			</div>
+			<p className={styles.copyright}>
+				© MoneySession 2024. Все права защищены
+			</p>
 		</footer>
 	);
 };
