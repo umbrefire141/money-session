@@ -12,17 +12,19 @@ const Header = () => {
 
 	return (
 		<header className={styles.header}>
-			<div className={styles.row}>
-				<div className={styles.firstItem}>
-					<Burger
-						menuIsActive={menuIsActive}
-						setMenuIsActive={setMenuIsActive}
-					/>
-					<Logo />
-				</div>
-				<div className={styles.menu}>
-					<Menu menuIsActive={menuIsActive} />
-					<Button className={styles.btn}>Связаться</Button>
+			<div className="container">
+				<div className={styles.row}>
+					<div className={styles.firstItem}>
+						<Burger
+							menuIsActive={menuIsActive}
+							setMenuIsActive={setMenuIsActive}
+						/>
+						<Logo />
+					</div>
+					<div className={styles.menu}>
+						<Menu menuIsActive={menuIsActive} />
+						<Button className={styles.btn}>Связаться</Button>
+					</div>
 				</div>
 			</div>
 		</header>
