@@ -37,6 +37,10 @@
 }
 
 @media (max-width: 996px) {
+	.menu {
+		margin-bottom: 2.6875rem;
+	}
+
 	.title {
 		display: none;
 	}

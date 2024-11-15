@@ -2,7 +2,6 @@
 	background-color: #191f2d;
 	border-radius: 10px;
 	padding: 5.0625rem 2.5625rem 4.0625rem;
-	min-height: 380px;
 	position: relative;
 	z-index: 1;
 }
@@ -23,10 +22,35 @@
 }
 
 .img {
-	width: 213px;
-	height: 228px;
 	position: absolute;
 	bottom: 0;
-	right: 0;
+	right: 2%;
 	z-index: -1;
+}
+
+@media (min-width: 997px) {
+	.card {
+		min-height: 380px;
+	}
+
+	.mbImg {
+		display: none;
+	}
+}
+
+@media (max-width: 996px) {
+	.card {
+		min-height: 270px;
+	}
+
+	.img {
+		display: none;
+	}
+
+	.mbImg {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		z-index: -1;
+	}
 }

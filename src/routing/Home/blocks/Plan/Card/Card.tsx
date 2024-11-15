@@ -16,7 +16,7 @@ const Card = ({ id, img, title, text }: ICardProps) => {
 			<Typography weight="bold" size="lg" transform="uppercase" family="exo">
 				{id} этап
 			</Typography>
-			<div>
+			<div className={styles.content}>
 				<Typography
 					TypeElement="h3"
 					family="exo"

@@ -7,15 +7,36 @@
 	gap: 1.125rem;
 }
 
-.telegram {
-	max-width: 200px;
-}
+@media (min-width: 997px) {
+	.telegram {
+		max-width: 200px;
+	}
 
-.email {
-	max-width: 244px;
+	.email {
+		max-width: 244px;
+	}
 }
 
 @media (max-width: 996px) {
+	.telegram {
+		max-width: 208px;
+	}
+
+	.email {
+		max-width: 211px;
+	}
+
+	.telegram img,
+	.email img {
+		width: 14px;
+		height: 11px;
+	}
+
+	.row {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
 	.title {
 		display: none;
 	}
