@@ -31,7 +31,7 @@ const Feedback = () => {
 						<div className={styles.row}>
 							<Button className={styles.email} variant="outline">
 								<Image src={telegramIcon} alt="" width={28} height={23} />
-								<span>Контактная информация</span>
+								<span>@Moneysession</span>
 							</Button>
 							<Button className={styles.name} variant="outline">
 								<Image src={emailIcon} alt="" width={24} height={24} />

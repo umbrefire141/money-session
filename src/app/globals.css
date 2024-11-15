@@ -13,6 +13,10 @@
 }
 
 html {
+	overflow-x: hidden;
+}
+
+html {
 	font-size: 16px;
 }
 
@@ -22,6 +26,7 @@ body {
 	font-family: var(--font-inter);
 	font-weight: 400;
 	font-size: 1rem;
+	overflow-x: hidden;
 }
 
 .container {
