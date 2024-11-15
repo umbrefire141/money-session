@@ -11,51 +11,53 @@ import styles from './Feedback.module.css';
 const Feedback = () => {
 	return (
 		<div className={styles.feedback}>
-			<div className={styles.card}>
-				<div className={styles.content}>
-					<Typography
-						TypeElement="h2"
-						family="exo"
-						size="3xl"
-						transform="uppercase"
-						weight="bold"
-						className={styles.title}
-					>
-						Обратная связь
-					</Typography>
-					<Typography size="lg" className={styles.text}>
-						Напишите нам на почту или телеграм для получения бесплатной
-						консультации и коммерческого предложения
-					</Typography>
-					<div className={styles.row}>
-						<Button className={styles.email} variant="outline">
-							<Image src={telegramIcon} alt="" width={28} height={23} />
-							<span>@Moneysession</span>
-						</Button>
-						<Button className={styles.name} variant="outline">
-							<Image src={emailIcon} alt="" width={24} height={24} />
-							<span>moneysession@mail.ru</span>
-						</Button>
-					</div>
-					<form className={styles.form}>
-						<div className={styles.form_row}>
-							<Field placeholder="Имя" />
-							<Field placeholder="Телефон или email" />
+			<div className="container">
+				<div className={styles.card}>
+					<div className={styles.content}>
+						<Typography
+							TypeElement="h2"
+							family="exo"
+							size="3xl"
+							transform="uppercase"
+							weight="bold"
+							className={styles.title}
+						>
+							Обратная связь
+						</Typography>
+						<Typography size="lg" className={styles.text}>
+							Напишите нам на почту или телеграм для получения бесплатной
+							консультации и коммерческого предложения
+						</Typography>
+						<div className={styles.row}>
+							<Button className={styles.email} variant="outline">
+								<Image src={telegramIcon} alt="" width={28} height={23} />
+								<span>@Moneysession</span>
+							</Button>
+							<Button className={styles.name} variant="outline">
+								<Image src={emailIcon} alt="" width={24} height={24} />
+								<span>moneysession@mail.ru</span>
+							</Button>
 						</div>
-						<Textarea
-							placeholder="Сообщение(не обязательно к заполнению)"
-							className={styles.textarea}
-						/>
-						<Button className={styles.form_btn}>отправить</Button>
-					</form>
+						<form className={styles.form}>
+							<div className={styles.form_row}>
+								<Field placeholder="Имя" />
+								<Field placeholder="Телефон или email" />
+							</div>
+							<Textarea
+								placeholder="Сообщение(не обязательно к заполнению)"
+								className={styles.textarea}
+							/>
+							<Button className={styles.form_btn}>отправить</Button>
+						</form>
+					</div>
+					<Image
+						src={img}
+						alt=""
+						width={undefined}
+						height={undefined}
+						className={styles.img}
+					/>
 				</div>
-				<Image
-					src={img}
-					alt=""
-					width={undefined}
-					height={undefined}
-					className={styles.img}
-				/>
 			</div>
 		</div>
 	);

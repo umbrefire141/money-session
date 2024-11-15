@@ -6,25 +6,27 @@ import Card from './Card/Card';
 const Advantages = () => {
 	return (
 		<div className={styles.advantages}>
-			<Typography
-				className={styles.title}
-				TypeElement="h2"
-				size="3xl"
-				family="exo"
-				weight="bold"
-				transform="uppercase"
-			>
-				преимущества
-			</Typography>
-			<div className={styles.grid}>
-				{advantages.map(advantage => (
-					<Card
-						key={advantage.id}
-						img={advantage.img}
-						title={advantage.title}
-						text={advantage.text}
-					/>
-				))}
+			<div className="container">
+				<Typography
+					className={styles.title}
+					TypeElement="h2"
+					size="3xl"
+					family="exo"
+					weight="bold"
+					transform="uppercase"
+				>
+					преимущества
+				</Typography>
+				<div className={styles.grid}>
+					{advantages.map(advantage => (
+						<Card
+							key={advantage.id}
+							img={advantage.img}
+							title={advantage.title}
+							text={advantage.text}
+						/>
+					))}
+				</div>
 			</div>
 		</div>
 	);
