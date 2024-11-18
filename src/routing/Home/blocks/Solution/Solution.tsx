@@ -9,7 +9,7 @@ import clsx from 'clsx';
 
 const Solution = () => {
 	return (
-		<div className={styles.solution}>
+		<div className={styles.solution} id="solutions">
 			<div className="container">
 				<Typography
 					className={styles.title}

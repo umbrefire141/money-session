@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import Link from 'next/link';
-import styles from './Button.module.css';
 import { IButtonLinkProps } from './ButtonLink.interface';
+import styles from './ButtonLink.module.css';
 
 const ButtonLink = ({
 	color = 'green',

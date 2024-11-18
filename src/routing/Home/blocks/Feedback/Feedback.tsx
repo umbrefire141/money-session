@@ -10,7 +10,7 @@ import styles from './Feedback.module.css';
 
 const Feedback = () => {
 	return (
-		<div className={styles.feedback}>
+		<div className={styles.feedback} id="feedback">
 			<div className="container">
 				<div className={styles.card}>
 					<div className={styles.content}>

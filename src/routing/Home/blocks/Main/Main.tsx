@@ -31,7 +31,7 @@ const Main = () => {
 				height={undefined}
 				className={styles.bgMain2}
 			/>
-			<div className={styles.main}>
+			<div className={styles.main} id="main">
 				<div className={clsx('container', styles.container)}>
 					<div className={styles.content}>
 						<Typography
