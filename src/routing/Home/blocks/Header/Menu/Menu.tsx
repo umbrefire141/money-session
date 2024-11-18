@@ -12,16 +12,16 @@ const Menu = ({ menuIsActive }: IMenuProps) => {
 		>
 			<ul className={styles.list}>
 				<li className={styles.item}>
-					<Link href="/">Главная</Link>
+					<Link href="#main">Главная</Link>
 				</li>
 				<li className={styles.item}>
-					<Link href="/">Преимущества работы с нами</Link>
+					<Link href="#advantages">Преимущества работы с нами</Link>
 				</li>
 				<li className={styles.item}>
-					<Link href="/">Готовые решения</Link>
+					<Link href="#solutions">Готовые решения</Link>
 				</li>
 				<li className={styles.item}>
-					<Link href="/">Контакты</Link>
+					<Link href="#feedback">Контакты</Link>
 				</li>
 			</ul>
 		</nav>

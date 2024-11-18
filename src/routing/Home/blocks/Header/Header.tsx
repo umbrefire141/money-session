@@ -1,6 +1,6 @@
 'use client';
 
-import Button from '@/components/shared/Button/Button';
+import ButtonLink from '@/components/shared/ButtonLink/ButtonLink';
 import { useState } from 'react';
 import Burger from './Burger/Burger';
 import styles from './Header.module.css';
@@ -23,7 +23,9 @@ const Header = () => {
 					</div>
 					<div className={styles.menu}>
 						<Menu menuIsActive={menuIsActive} />
-						<Button className={styles.btn}>Связаться</Button>
+						<ButtonLink href="#feedback" className={styles.btn}>
+							Связаться
+						</ButtonLink>
 					</div>
 				</div>
 			</div>

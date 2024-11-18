@@ -5,7 +5,7 @@ import Card from './Card/Card';
 
 const Advantages = () => {
 	return (
-		<div className={styles.advantages}>
+		<div className={styles.advantages} id="advantages">
 			<div className="container">
 				<Typography
 					className={styles.title}
