@@ -1,6 +1,7 @@
 import emailIcon from '@/assets/icons/email.svg';
 import telegramIcon from '@/assets/icons/telegram.svg';
 import img from '@/assets/images/bg-feedback.png';
+import icon from '@/assets/images/money-fly.svg';
 import Button from '@/components/shared/Button/Button';
 import Field from '@/components/shared/Field/Field';
 import Textarea from '@/components/shared/Textarea/Textarea';
@@ -56,6 +57,13 @@ const Feedback = () => {
 						width={undefined}
 						height={undefined}
 						className={styles.img}
+					/>
+					<Image
+						src={icon}
+						alt=""
+						width={undefined}
+						height={undefined}
+						className={styles.icon}
 					/>
 				</div>
 			</div>

@@ -59,6 +59,14 @@
 	padding-bottom: 42px;
 }
 
+.icon {
+	position: absolute;
+	top: 15%;
+	right: 10%;
+	bottom: 0;
+	z-index: -1;
+}
+
 @media (min-width: 997px) {
 	.email {
 		max-width: 200px;
@@ -87,7 +95,8 @@
 		height: 11px;
 	}
 
-	.img {
+	.img,
+	.icon {
 		display: none;
 	}
 
