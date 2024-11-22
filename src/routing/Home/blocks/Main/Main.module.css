@@ -21,8 +21,9 @@
 	width: 100%;
 	height: 316px;
 	position: absolute;
-	top: -5%;
-	right: 5%;
+	top: -1%;
+	right: 10%;
+	transform: rotate(344deg);
 	z-index: -1;
 }
 
@@ -34,23 +35,18 @@
 	margin-bottom: 1.4em;
 }
 
-.bgMain1 {
-	top: 0;
-	left: 0;
+.bgMain {
 	position: absolute;
-	z-index: -1;
-}
-
-.bgMain2 {
-	top: 0;
 	right: 0;
-	position: absolute;
-	z-index: -2;
-	width: 50%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	width: 100%;
 }
 
 .blurImage {
-	max-width: 694px;
+	max-width: 415px;
 	width: 100%;
 	height: auto;
 	top: 0;
@@ -59,22 +55,23 @@
 	z-index: -1;
 }
 
-@media (min-width: 3800px) {
+@media (min-width: 998px) {
 	.blurImage {
-		max-width: none;
-		width: 35%;
+		display: none;
 	}
 }
 
-@media (max-width: 992px) {
+@media (max-width: 997px) {
 	.content {
 		max-width: 100%;
 		margin-right: 0;
 	}
 
-	.img,
-	.bgMain1,
-	.bgMain2 {
+	.bgMain {
+		display: none;
+	}
+
+	.img {
 		display: none;
 	}
 }

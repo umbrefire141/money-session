@@ -1,6 +1,5 @@
-import bgMain2 from '@/assets/images/bg-main-2.png';
-import blurImage from '@/assets/images/blur.svg';
-import bgMain1 from '@/assets/images/lines.svg';
+import bgMain from '@/assets/images/bg-main.png';
+import blurImage from '@/assets/images/blur.png';
 import img from '@/assets/images/money-fly.svg';
 import Typography from '@/components/shared/Typography/Typography';
 import clsx from 'clsx';
@@ -11,25 +10,18 @@ const Main = () => {
 	return (
 		<>
 			<Image
+				src={bgMain}
+				alt=""
+				width={undefined}
+				height={undefined}
+				className={styles.bgMain}
+			/>
+			<Image
 				src={blurImage}
 				alt=""
 				width={undefined}
 				height={undefined}
 				className={styles.blurImage}
-			/>
-			<Image
-				src={bgMain1}
-				alt=""
-				width={undefined}
-				height={undefined}
-				className={styles.bgMain1}
-			/>
-			<Image
-				src={bgMain2}
-				alt=""
-				width={undefined}
-				height={undefined}
-				className={styles.bgMain2}
 			/>
 			<div className={styles.main} id="main">
 				<div className={clsx('container', styles.container)}>
@@ -42,7 +34,7 @@ const Main = () => {
 							transform="uppercase"
 							className={styles.title}
 						>
-							готовое решение для
+							готовое решение <br /> для
 							<span className={styles.green}> гэмблинг-бизнеса</span>
 						</Typography>
 						<Typography size="lg" className={styles.info}>
