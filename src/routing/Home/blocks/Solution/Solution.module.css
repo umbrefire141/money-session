@@ -119,3 +119,13 @@
 		max-height: 279px;
 	}
 }
+
+@media (max-width: 576px) {
+	.title {
+		margin-bottom: 1em;
+	}
+
+	.solution {
+		margin-bottom: 2rem;
+	}
+}
