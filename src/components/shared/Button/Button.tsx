@@ -1,4 +1,5 @@
 import clsx from 'clsx';
+import Image from 'next/image';
 import { IButtonProps } from './Button.interface';
 import styles from './Button.module.css';
 
@@ -8,6 +9,7 @@ const Button = ({
 	size = 'sm',
 	className,
 	children,
+	icon,
 	...rest
 }: IButtonProps) => {
 	return (
@@ -21,7 +23,18 @@ const Button = ({
 			})}
 			{...rest}
 		>
-			{children}
+			<span className={styles.info}>
+				{icon && (
+					<Image
+						src={icon}
+						className={styles.icon}
+						alt=""
+						width={undefined}
+						height={undefined}
+					/>
+				)}
+				{children}
+			</span>
 		</button>
 	);
 };

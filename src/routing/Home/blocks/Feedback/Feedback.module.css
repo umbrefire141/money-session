@@ -69,10 +69,12 @@
 
 @media (min-width: 997px) {
 	.email {
+		font-size: 14px;
 		max-width: 200px;
 	}
 
 	.name {
+		font-size: 14px;
 		max-width: 244px;
 	}
 }

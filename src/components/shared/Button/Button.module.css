@@ -3,7 +3,6 @@
 	align-items: center;
 	justify-content: center;
 	width: 100%;
-	gap: 0.625rem;
 	font-weight: 700;
 	color: var(--color-white);
 	cursor: pointer;
@@ -12,6 +11,15 @@
 	border-radius: 10px;
 	transition: background-color 0.3s;
 	white-space: nowrap;
+}
+
+.info {
+	display: flex;
+	align-items: center;
+	gap: 0.625rem;
+}
+
+.icon {
 }
 
 .green {

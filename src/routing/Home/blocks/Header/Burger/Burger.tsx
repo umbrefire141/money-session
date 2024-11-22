@@ -11,11 +11,9 @@ const Burger = ({ menuIsActive, setMenuIsActive }: IBurgerProps) => {
 			onClick={() => {
 				if (!menuIsActive) {
 					setMenuIsActive(true);
-					document.body.style.overflow = 'hidden';
 					return;
 				}
 				setMenuIsActive(false);
-				document.body.style.overflow = '';
 			}}
 		>
 			<span></span>

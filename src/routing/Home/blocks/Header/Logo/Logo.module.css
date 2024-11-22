@@ -3,3 +3,11 @@
 	width: 16.375rem;
 	height: 4.625rem;
 }
+
+@media (max-width: 996px) {
+	.logo,
+	.logo img {
+		width: 119px;
+		height: 34px;
+	}
+}

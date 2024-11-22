@@ -17,6 +17,19 @@
 	max-width: 245px;
 }
 
+.sb {
+	display: flex;
+	align-items: center;
+	gap: 41px;
+	margin-bottom: 30px;
+}
+
+.sb button {
+	background-color: transparent;
+	outline: none;
+	border: none;
+}
+
 @media (min-width: 997px) {
 	.mBtn,
 	.mbIcon {
@@ -26,6 +39,10 @@
 	.item {
 		white-space: nowrap;
 	}
+
+	.sb {
+		display: none;
+	}
 }
 
 @media (max-width: 996px) {
@@ -33,20 +50,21 @@
 		position: fixed;
 		top: 0;
 		right: 0;
-		transform: translateY(-100%);
+		transform: translateX(-100%);
 		left: 0;
 		bottom: 0;
-		background-color: rgba(000, 000, 000, 0.7);
+		background-color: #222836;
 		z-index: 100000;
 		transition: all 0.3s;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		max-width: 285px;
 	}
 
 	.active {
-		transform: translateY(0);
+		transform: translateX(0);
 	}
 
 	.list {

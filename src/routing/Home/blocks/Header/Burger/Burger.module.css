@@ -1,7 +1,6 @@
 .burger {
 	display: block;
 	position: relative;
-	z-index: 1000000;
 	width: 30px;
 	border: 0;
 	cursor: pointer;

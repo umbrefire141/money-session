@@ -11,7 +11,6 @@
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
-	gap: 1rem;
 }
 
 .list {
@@ -36,9 +35,19 @@
 	color: var(--color-green);
 }
 
+@media (min-width: 997px) {
+	.nav {
+		gap: 8.1875rem;
+	}
+}
+
 @media (max-width: 996px) {
 	.menu {
 		margin-bottom: 2.6875rem;
+	}
+
+	.nav {
+		gap: 1rem;
 	}
 
 	.title {

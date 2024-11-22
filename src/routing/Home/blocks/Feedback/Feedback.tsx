@@ -30,13 +30,19 @@ const Feedback = () => {
 							консультации и коммерческого предложения
 						</Typography>
 						<div className={styles.row}>
-							<Button className={styles.email} variant="outline">
-								<Image src={telegramIcon} alt="" width={28} height={23} />
-								<span>@Moneysession</span>
+							<Button
+								icon={telegramIcon}
+								className={styles.email}
+								variant="outline"
+							>
+								@Moneysession
 							</Button>
-							<Button className={styles.name} variant="outline">
-								<Image src={emailIcon} alt="" width={24} height={24} />
-								<span>moneysession@mail.ru</span>
+							<Button
+								icon={emailIcon}
+								className={styles.name}
+								variant="outline"
+							>
+								moneysession@mail.ru
 							</Button>
 						</div>
 						<form className={styles.form}>

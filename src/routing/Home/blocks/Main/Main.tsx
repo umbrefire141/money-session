@@ -42,7 +42,7 @@ const Main = () => {
 							transform="uppercase"
 							className={styles.title}
 						>
-							готовое решение <br /> для
+							готовое решение для
 							<span className={styles.green}> гэмблинг-бизнеса</span>
 						</Typography>
 						<Typography size="lg" className={styles.info}>

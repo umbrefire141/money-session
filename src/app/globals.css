@@ -43,7 +43,7 @@ a {
 	text-decoration: none;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1150px) {
 	html {
 		font-size: 14px;
 	}

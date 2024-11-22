@@ -22,8 +22,10 @@
 	gap: 3.125rem;
 }
 
-.btn {
-	max-width: 132px;
+@media (min-width: 997px) {
+	.btn {
+		width: 132px;
+	}
 }
 
 @media (max-width: 576px) {
