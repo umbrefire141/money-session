@@ -3,8 +3,8 @@ import Typography from '@/components/shared/Typography/Typography';
 import Image from 'next/image';
 import styles from './Solution.module.css';
 
-import img1 from '@/assets/images/solutions/a-1.png';
-import img2 from '@/assets/images/solutions/a-2.png';
+import img1 from '@/assets/images/solutions/a-1.webp';
+import img2 from '@/assets/images/solutions/a-2.webp';
 import clsx from 'clsx';
 
 const Solution = () => {
