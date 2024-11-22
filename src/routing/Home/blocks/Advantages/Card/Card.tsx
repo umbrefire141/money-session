@@ -58,25 +58,10 @@ const Card = ({ img, title, text }: ICardProps) => {
 			</div>
 			<Image
 				src={img.url}
-				style={{
-					bottom: `${img.bottom ? img.bottom : 0}%`,
-					right: `${img.right ? img.right : 2}%`,
-				}}
 				alt=""
 				width={undefined}
 				height={undefined}
 				className={styles.img}
-			/>
-			<Image
-				src={img.mobileUrl}
-				style={{
-					bottom: `${img.bottom ? img.bottom : 0}%`,
-					right: `${img.right ? 0 : 2}%`,
-				}}
-				alt=""
-				width={undefined}
-				height={undefined}
-				className={styles.mbImg}
 			/>
 		</div>
 	);

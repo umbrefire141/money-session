@@ -56,14 +56,15 @@
 	bottom: 0;
 	height: 100%;
 	z-index: -1;
+	padding-bottom: 42px;
 }
 
 @media (min-width: 997px) {
-	.name {
+	.email {
 		max-width: 200px;
 	}
 
-	.email {
+	.name {
 		max-width: 244px;
 	}
 }

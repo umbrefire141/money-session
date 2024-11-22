@@ -8,7 +8,15 @@ const Burger = ({ menuIsActive, setMenuIsActive }: IBurgerProps) => {
 			className={clsx(styles.burger, {
 				[styles.active]: menuIsActive,
 			})}
-			onClick={() => setMenuIsActive(a => !a)}
+			onClick={() => {
+				if (!menuIsActive) {
+					setMenuIsActive(true);
+					document.body.style.overflow = 'hidden';
+					return;
+				}
+				setMenuIsActive(false);
+				document.body.style.overflow = '';
+			}}
 		>
 			<span></span>
 		</button>

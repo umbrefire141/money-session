@@ -11,6 +11,7 @@ const ButtonLink = ({
 	className,
 	style,
 	children,
+	onClick,
 }: IButtonLinkProps) => {
 	return (
 		<Link
@@ -23,6 +24,8 @@ const ButtonLink = ({
 				[styles.lg]: size === 'lg',
 			})}
 			style={style}
+			// eslint-disable-next-line @typescript-eslint/no-explicit-any
+			onClick={onClick as any}
 		>
 			{children}
 		</Link>

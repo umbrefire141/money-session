@@ -17,12 +17,12 @@
 }
 
 .img {
-	max-width: 639px;
+	max-width: 403px;
 	width: 100%;
-	height: 470px;
+	height: 316px;
 	position: absolute;
-	top: -22%;
-	right: 12%;
+	top: -6%;
+	right: 13%;
 	z-index: -1;
 }
 

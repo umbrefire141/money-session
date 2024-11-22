@@ -5,10 +5,6 @@
 	gap: 3.25rem;
 }
 
-.item {
-	white-space: nowrap;
-}
-
 .item a {
 	transition: color 0.3s;
 }
@@ -17,7 +13,22 @@
 	color: var(--color-green);
 }
 
-@media (max-width: 992px) {
+.mBtn {
+	max-width: 245px;
+}
+
+@media (min-width: 997px) {
+	.mBtn,
+	.mbIcon {
+		display: none;
+	}
+
+	.item {
+		white-space: nowrap;
+	}
+}
+
+@media (max-width: 996px) {
 	.menu {
 		position: fixed;
 		top: 0;
@@ -28,6 +39,10 @@
 		background-color: rgba(000, 000, 000, 0.7);
 		z-index: 100000;
 		transition: all 0.3s;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.active {
@@ -36,8 +51,22 @@
 
 	.list {
 		flex-direction: column;
+		margin-bottom: 50px;
+		gap: 30px;
+	}
+
+	.item {
+		max-width: 245px;
+		font-size: 18px;
+	}
+
+	.item a {
+		display: flex;
 		align-items: center;
-		justify-content: center;
-		height: 100%;
+		gap: 30px;
+	}
+
+	.mBtn {
+		font-size: 12px;
 	}
 }

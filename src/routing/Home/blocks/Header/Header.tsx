@@ -22,7 +22,10 @@ const Header = () => {
 						<Logo />
 					</div>
 					<div className={styles.menu}>
-						<Menu menuIsActive={menuIsActive} />
+						<Menu
+							menuIsActive={menuIsActive}
+							setMenuIsActive={setMenuIsActive}
+						/>
 						<ButtonLink href="#feedback" className={styles.btn}>
 							Связаться
 						</ButtonLink>
