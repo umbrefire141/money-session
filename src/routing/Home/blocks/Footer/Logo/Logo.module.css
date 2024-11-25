@@ -4,6 +4,12 @@
 	height: 4.625rem;
 }
 
+@media (min-width: 997px) {
+	.mobile {
+		display: none;
+	}
+}
+
 @media (max-width: 996px) {
 	.logo,
 	.logo img {
@@ -13,5 +19,9 @@
 
 	.logo {
 		margin-bottom: 20px;
+	}
+
+	.desktop {
+		display: none;
 	}
 }
